@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  BeginRunVC
 //  Treads
 //
 //  Created by Odhrán Daly on 08/08/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class BeginRunVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
