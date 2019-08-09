@@ -32,6 +32,7 @@
 		28C1730A22FCCA1800E86E0D /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28C172F822FCCA1800E86E0D /* Montserrat-ExtraBold.ttf */; };
 		28C1730B22FCCA1800E86E0D /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28C172F922FCCA1800E86E0D /* Montserrat-MediumItalic.ttf */; };
 		28C1730D22FE1EEA00E86E0D /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C1730C22FE1EEA00E86E0D /* LocationVC.swift */; };
+		28C1730F22FE278C00E86E0D /* CurrentRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C1730E22FE278C00E86E0D /* CurrentRunVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		28C172F822FCCA1800E86E0D /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		28C172F922FCCA1800E86E0D /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
 		28C1730C22FE1EEA00E86E0D /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		28C1730E22FE278C00E86E0D /* CurrentRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRunVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				28C1730C22FE1EEA00E86E0D /* LocationVC.swift */,
 				28C172BE22FCC7B100E86E0D /* BeginRunVC.swift */,
 				28C172C022FCC7B100E86E0D /* RunLogVC.swift */,
+				28C1730E22FE278C00E86E0D /* CurrentRunVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C1730F22FE278C00E86E0D /* CurrentRunVC.swift in Sources */,
 				28C172C122FCC7B100E86E0D /* RunLogVC.swift in Sources */,
 				28C1730D22FE1EEA00E86E0D /* LocationVC.swift in Sources */,
 				28C172BD22FCC7B100E86E0D /* AppDelegate.swift in Sources */,
