@@ -99,8 +99,6 @@
 				28C172D122FCC90800E86E0D /* Extentions */,
 				28C172D022FCC8FB00E86E0D /* Resources */,
 				28C172BC22FCC7B100E86E0D /* AppDelegate.swift */,
-				28C172BE22FCC7B100E86E0D /* BeginRunVC.swift */,
-				28C172C022FCC7B100E86E0D /* RunLogVC.swift */,
 				28C172C222FCC7B100E86E0D /* Main.storyboard */,
 				28C172C522FCC7B300E86E0D /* Assets.xcassets */,
 				28C172C722FCC7B300E86E0D /* LaunchScreen.storyboard */,
@@ -151,6 +149,8 @@
 		28C172D322FCC91700E86E0D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				28C172BE22FCC7B100E86E0D /* BeginRunVC.swift */,
+				28C172C022FCC7B100E86E0D /* RunLogVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
