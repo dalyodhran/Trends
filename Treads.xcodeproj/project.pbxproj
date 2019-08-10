@@ -12,6 +12,7 @@
 		2893942422FF19F600621FD7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893942322FF19F600621FD7 /* Constants.swift */; };
 		2893942622FF304C00621FD7 /* RunLogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893942522FF304C00621FD7 /* RunLogCell.swift */; };
 		2893942822FF4A9400621FD7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893942722FF4A9400621FD7 /* Location.swift */; };
+		2893942A22FF4E8A00621FD7 /* RealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2893942922FF4E8A00621FD7 /* RealmConfig.swift */; };
 		28C172BD22FCC7B100E86E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C172BC22FCC7B100E86E0D /* AppDelegate.swift */; };
 		28C172BF22FCC7B100E86E0D /* BeginRunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C172BE22FCC7B100E86E0D /* BeginRunVC.swift */; };
 		28C172C122FCC7B100E86E0D /* RunLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C172C022FCC7B100E86E0D /* RunLogVC.swift */; };
@@ -48,6 +49,7 @@
 		2893942322FF19F600621FD7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2893942522FF304C00621FD7 /* RunLogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunLogCell.swift; sourceTree = "<group>"; };
 		2893942722FF4A9400621FD7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2893942922FF4E8A00621FD7 /* RealmConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConfig.swift; sourceTree = "<group>"; };
 		28C172B922FCC7B100E86E0D /* Treads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treads.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C172BC22FCC7B100E86E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28C172BE22FCC7B100E86E0D /* BeginRunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginRunVC.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				2893942322FF19F600621FD7 /* Constants.swift */,
+				2893942922FF4E8A00621FD7 /* RealmConfig.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				28C172BD22FCC7B100E86E0D /* AppDelegate.swift in Sources */,
 				2893942222FF14F600621FD7 /* Run.swift in Sources */,
 				2893942622FF304C00621FD7 /* RunLogCell.swift in Sources */,
+				2893942A22FF4E8A00621FD7 /* RealmConfig.swift in Sources */,
 				28C172BF22FCC7B100E86E0D /* BeginRunVC.swift in Sources */,
 				2893942422FF19F600621FD7 /* Constants.swift in Sources */,
 			);
