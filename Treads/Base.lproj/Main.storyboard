@@ -255,7 +255,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="endRunOutline" translatesAutoresizingMaskIntoConstraints="NO" id="nSA-G9-0Rk">
                                 <rect key="frame" x="69" y="747" width="232" height="75"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="vPU-JV-RXh">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="vPU-JV-RXh">
                                 <rect key="frame" x="168.5" y="485" width="77.5" height="63"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XI9-bs-eKw">
@@ -265,7 +265,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="firstBaseline" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="EWP-za-DfD">
-                                        <rect key="frame" x="4.5" y="26" width="73" height="37"/>
+                                        <rect key="frame" x="2" y="26" width="73" height="37"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QQ-YJ-SzP">
                                                 <rect key="frame" x="0.0" y="0.0" width="49.5" height="37"/>
@@ -286,6 +286,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhT-ur-MMW">
                                 <rect key="frame" x="279" y="747" width="75" height="75"/>
                                 <state key="normal" image="pauseButton"/>
+                                <connections>
+                                    <action selector="pausedBtnPressed:" destination="2ta-xl-U5Z" eventType="touchUpInside" id="3aA-4B-QHc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="END RUN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tUx-7o-osn">
                                 <rect key="frame" x="175" y="774.5" width="76.5" height="20"/>
@@ -327,6 +330,10 @@
                         <viewLayoutGuide key="safeArea" id="X72-8V-HOX"/>
                     </view>
                     <connections>
+                        <outlet property="distanceLbl" destination="9QQ-YJ-SzP" id="xzw-W3-pGF"/>
+                        <outlet property="durationLbl" destination="hdB-eX-Ump" id="cda-kt-YZ6"/>
+                        <outlet property="paceLbl" destination="E63-Ln-ZNh" id="Z2x-gb-dB0"/>
+                        <outlet property="pauseBtn" destination="mhT-ur-MMW" id="dWA-nW-zSm"/>
                         <outlet property="sliderimageView" destination="zNl-43-Boc" id="1Js-lN-rrg"/>
                         <outlet property="swipBGImageView" destination="nSA-G9-0Rk" id="dy6-dD-p1u"/>
                     </connections>
