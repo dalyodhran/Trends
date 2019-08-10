@@ -285,6 +285,11 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhT-ur-MMW">
                                 <rect key="frame" x="279" y="747" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="4wp-0G-Kkm"/>
+                                    <constraint firstAttribute="height" constant="75" id="OBm-iM-0b8"/>
+                                    <constraint firstAttribute="width" secondItem="mhT-ur-MMW" secondAttribute="height" multiplier="1:1" id="tWq-wu-a4q"/>
+                                </constraints>
                                 <state key="normal" image="pauseButton"/>
                                 <connections>
                                     <action selector="pausedBtnPressed:" destination="2ta-xl-U5Z" eventType="touchUpInside" id="3aA-4B-QHc"/>
@@ -309,7 +314,6 @@
                             <constraint firstItem="vPU-JV-RXh" firstAttribute="top" secondItem="yUl-eE-xuQ" secondAttribute="bottom" constant="65" id="5wZ-3o-upc"/>
                             <constraint firstItem="mhT-ur-MMW" firstAttribute="centerY" secondItem="nSA-G9-0Rk" secondAttribute="centerY" id="8bx-0a-625"/>
                             <constraint firstItem="pxB-2G-2Fb" firstAttribute="centerX" secondItem="yUl-eE-xuQ" secondAttribute="centerX" id="BAI-bk-teJ"/>
-                            <constraint firstItem="mhT-ur-MMW" firstAttribute="leading" secondItem="nSA-G9-0Rk" secondAttribute="trailing" constant="-22" id="BTQ-Js-pKm"/>
                             <constraint firstItem="t5f-aG-KF6" firstAttribute="trailing" secondItem="X72-8V-HOX" secondAttribute="trailing" id="CF2-xh-GsQ"/>
                             <constraint firstItem="hPv-AY-Vle" firstAttribute="centerX" secondItem="m1z-73-103" secondAttribute="centerX" id="FY3-eM-6Sw"/>
                             <constraint firstItem="hdB-eX-Ump" firstAttribute="centerX" secondItem="m1z-73-103" secondAttribute="centerX" id="Gzf-1D-1Kb"/>
@@ -320,6 +324,7 @@
                             <constraint firstItem="yUl-eE-xuQ" firstAttribute="leading" secondItem="X72-8V-HOX" secondAttribute="leading" id="aCb-uI-2iB"/>
                             <constraint firstItem="tUx-7o-osn" firstAttribute="centerX" secondItem="nSA-G9-0Rk" secondAttribute="centerX" constant="28" id="doI-DI-atX"/>
                             <constraint firstItem="t5f-aG-KF6" firstAttribute="leading" secondItem="X72-8V-HOX" secondAttribute="leading" id="e3Z-qr-gjT"/>
+                            <constraint firstItem="mhT-ur-MMW" firstAttribute="leading" secondItem="nSA-G9-0Rk" secondAttribute="trailing" constant="-22" id="fRi-WF-N33"/>
                             <constraint firstItem="hPv-AY-Vle" firstAttribute="top" secondItem="X72-8V-HOX" secondAttribute="top" constant="8" id="jeO-sh-IvH"/>
                             <constraint firstItem="yUl-eE-xuQ" firstAttribute="trailing" secondItem="X72-8V-HOX" secondAttribute="trailing" id="ob9-1f-xeT"/>
                             <constraint firstItem="t5f-aG-KF6" firstAttribute="top" secondItem="m1z-73-103" secondAttribute="top" id="uep-be-2pH"/>
